@@ -7,11 +7,11 @@ output: html_document
 library(tidyverse)
 library(kableExtra)
 library(tidymodels)
-source("../../scripts/viridis.R")
-source("../../scripts/ggprob.R")
+source("scripts/viridis.R")
+source("scripts/ggprob.R")
 ```
 
-Group Members: Heidee Xiong, Jack Wallenta, Clayton Goter, Simon Fu
+Group Members: Simon Fu, Heidee Xiong, Jack Wallenta, Clayton Goter
 
 
 # Introduction:
