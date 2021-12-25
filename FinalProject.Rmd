@@ -11,8 +11,6 @@ source("../../scripts/viridis.R")
 source("../../scripts/ggprob.R")
 ```
 
-Group Number: 313B
-
 Group Members: Heidee Xiong, Jack Wallenta, Clayton Goter, Simon Fu
 
 
