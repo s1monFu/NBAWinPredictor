@@ -75,11 +75,14 @@ What is the most important statistic that determines whether or not a team wins 
 
 ## 1.Do teams in the Western Conference win more often than teams in the Eastern Conference?
 
+<img width="675" alt="Screen Shot 2021-12-28 at 12 35 29 PM" src="https://user-images.githubusercontent.com/49095933/147596681-c47ccb97-4c6b-4732-94db-4d6f30f0ff6b.png">
 
 We infer that Western Conference teams win more often than teams in the Eastern conference. To explore this question, we sorted each team by their winning percentage then created a bar graph, setting the variable (“NICKNAME) to the x-axis, and (“win_pct”) to the y-axis. We then color coded each bar to its respective conference of East or West. We also made sure to include a horizontal line on the graph at the 50 mark to help visualize the teams whose winning percentages were greater than 50%. We also calculated the overall winning percentage for each conference and added horizontal lines for each conference to visualize the difference, with the Western conference having an overall winning percentage of 52.06%, and the Eastern conference with an overall winning percentage of 47.75%. While these numbers are close, teams in the Western conference are more likely to win than teams in the Eastern conference. Additionally, based on the bar graph we made, it can be concluded that teams in the Western conference win more often than those in the Eastern, with 10 Western teams and 6 Eastern teams having above a 50% winning percentage. This also means that 9 Eastern teams and 5 Western teams have below a 50% winning percentage. 
 
 
 ## 2.Does the location of a game influence the chance of a team to win?
+
+![image](https://user-images.githubusercontent.com/49095933/147596823-7f912ed5-f7b2-4e8e-bc95-c4f41a29e755.png)
 
 
 We infer that a team is more likely to win if they are playing at home rather than away. To answer this question, we made a bar comparing each team to its percentage of wins that were home games, setting the team on the y-axis, and the percentage on the x-axis. We also added a vertical dashed line on the bar graph at 50% to indicate where the total percentage of wins that were home games were more than half for each team. Based on the bar graph, all 30 teams had over 50% of total wins that were home games, meaning that the location of a game does influence the chance of a team to win and that a team is more likely to win a game if they are playing at home.
