@@ -89,10 +89,14 @@ We infer that a team is more likely to win if they are playing at home rather th
 
 ## 3.Do teams with higher three point percentages win more often overall?
 
+![image](https://user-images.githubusercontent.com/49095933/147596890-83ed6edc-a85c-4cf0-a99a-ffba24d0956c.png)
+
+
 As a group, we predicted that teams with higher three point percentages overall win more than teams with lower three point percentages. To visualize our prediction, we plotted each team’s win percentage (y-axis) vs. their three point percentage (x-axis), adding dashed lines for the NBA averages to easily see which teams are above or below average for each statistic. Lastly we added a regression line to show the relationship between the two variables. We see this line is positive, meaning that as a team’s three point percentage increases we can expect their win percentage to increase too . It is worth noting that we did not have three-pointer-attempts or three-pointers-made data, so the three_pct variable is an average of the home and away percentages. The win percentage is accurate as it was made using the number of wins and number of total games for each team.
 
 ## 4.What is the most important statistic that determines whether or not a team wins a game?
 
+![image](https://user-images.githubusercontent.com/49095933/147596918-9215d716-a477-4bdc-8527-59108070f070.png)
 
 
 Based on our last graph we naturally inferred that three-point percentage would be the most important statistic in determining whether a team wins. To test which game statistics had the most effect on team wins, we grouped our data by team and by season, totaled the in-game statistics provided in the data sets, and calculated each team's winning percentage. The transformed data now contained points per game, rebounds per game, assists per game, three-point percentage, and win percentage for each season in our dataset. We then ran a linear regression for each of the season statistics on a team's win percentage. Finally, we plotted the correlation coefficient of each of these regression variables onto a bar graph to easily compare the regression models. At first glance, we noticed that three-point percentage had the highest correlation to win percentage with an R-squared value of 0.2069. On top of this, we noticed that the statistic with the lowest correlation to win percentage was rebounds per game with an R-squared value of 0.0463. However, none of the statistics had a higher correlation than 0.21.
